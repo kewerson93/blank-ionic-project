@@ -1,0 +1,18 @@
+<ion-view id="login-page">
+  <ion-content scroll="false" class="b-center-middle">
+      <div class="b-login-box">
+        <img class="b-login-logo" src="assets/img/logo.png"/>
+        <div class="list list-inset b-login-form">
+          <label class="item item-input">
+            <input type="email" placeholder="E-mail" ng-model="vm.user.login">
+          </label>
+          <label class="item item-input">
+            <input type="password" placeholder="Senha" ng-model="vm.user.password">
+          </label>
+        </div>
+        <button class="button button-balanced b-login-button" ng-click="vm.loginConvencional(vm.user)">
+          <span>ENTRAR</span>
+        </button>
+      </div>
+  </ion-content>  
+</ion-view>

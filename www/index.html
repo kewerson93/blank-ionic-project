@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+    <title></title>
+ 
+
+    <link href="assets/css/ionic.app.css" rel="stylesheet">
+
+    <!-- Angular/Cordova -->
+    <script src="assets/lib/ionic/js/ionic.bundle.js"></script>
+    <script src="assets/lib/ngstorage/ngStorage.min.js"></script>
+    <script src="cordova.js"></script>
+
+  </head>
+  <body ng-app="app">
+
+    <!-- View Principal -->
+    <ion-nav-view></ion-nav-view>
+
+    <!-- App Main/Angular modules bootstrap -->
+    <script src="app/app.js"></script>
+    <script src="app/app.const.js"></script>
+    <script src="app/layout/layout.controller.js"></script>
+
+
+    <!-- Modulo principal -->           
+    <script src="app/core/interceptor.module.js"></script>
+    <script src="app/core/core.module.js"></script>
+    <script src="app/core/request.service.js"></script>
+
+    
+    <!-- Login -->
+    <script src="app/pages/login/login.module.js"></script>
+    <script src="app/pages/login/login.controller.js"></script>
+
+    <!-- main -->
+    <script src="app/pages/main/main.module.js"></script>
+    <script src="app/pages/main/main.controller.js"></script>
+  </body>
+</html>
