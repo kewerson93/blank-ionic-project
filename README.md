@@ -17,7 +17,6 @@ Instalação:
 2. Rode o comando `npm install` para instalar as dependências do `package.json`
 
 3. Adicione a plataforma alvo
-`ionic platform add android` ou `ionic platform add ios`
-obs: isso irá baixar todos os arquivos da plataforma alvo e seus respectivos plugins
+`ionic platform add android` ou `ionic platform add ios`. **obs**: isso irá baixar todos os arquivos da plataforma alvo e seus respectivos plugins
 
 4. Rode o projeto utilizando `ionic serve` para visualização no navegador ou `ionic run <plataforma alvo>` para rodar diretamente no dispositivo conectado
