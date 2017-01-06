@@ -1,5 +1,6 @@
 # blank-ionic-project
 
+Projeto em branco para iniciar rapidamente o desenvolvimento de uma aplicação em Ionic aplicando o styleguide do John Papa
 
 Requisitos:
 ------------------------
