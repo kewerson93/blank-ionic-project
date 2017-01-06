@@ -4,8 +4,8 @@
 Requisitos:
 ------------------------
 - NodeJs 6.x ou superior
-- Ionic 2.x ou superior
-- Cordova 6.x ou superior
+- Ionic cli 2.x ou superior
+- Cordova cli 6.x ou superior
 - para gerar o apk para  Java 7 e Android SDK mais recente
 
 Instalação:
